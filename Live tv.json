@@ -1,0 +1,27 @@
+{
+  "id": "uk.free.tv.live",
+  "name": "UK Free TV",
+  "version": "1.0.0",
+  "description": "BBC One, ITV1, Channel 4, Channel 5",
+  "resources": ["stream"],
+  "types": ["tv"],
+  "catalogs": [],
+  "streams": [
+    {
+      "name": "BBC One HD",
+      "url": "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_hd/iptv_hd_abr_v2.m3u8"
+    },
+    {
+      "name": "ITV1 HD",
+      "url": "https://itv1-live.akamaized.net/hls/live/playlist.m3u8"
+    },
+    {
+      "name": "Channel 4 HD",
+      "url": "https://c4-live.amagi.tv/playlist/c4/live.m3u8"
+    },
+    {
+      "name": "Channel 5 HD",
+      "url": "https://c5-live.akamaized.net/hls/live/c5hd/playlist.m3u8"
+    }
+  ]
+}
